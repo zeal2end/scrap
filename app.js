@@ -19,6 +19,11 @@ app.get('/kv', function (req, res) {
 	res.redirect('/');
 })
 
+app.get('/kv', function (req, res) {
+	res.redirect('/');
+})
+
+
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, function () {
