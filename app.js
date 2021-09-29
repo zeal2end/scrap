@@ -11,9 +11,18 @@ app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
-app.get('/kv_putra', function (req, res) {
+app.get('/', function (req, res) {
 	res.render('home');
   })
+
+app.get('/kv', function (req, res) {
+	res.redirect('/');
+})
+
+app.get('/kv', function (req, res) {
+	res.redirect('/');
+})
+
 
 const PORT = process.env.PORT || 3000;
 
