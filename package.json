@@ -1,12 +1,12 @@
 {
   "name": "proj",
   "version": "1.0.0",
-  "description": "project for kv putra ",
-  "main": "app.js","nodemon": "^2.0.13",
+  "description": "project under 4th yr",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "kv putra",
+  "author": "rupam karmakar",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -14,6 +14,7 @@
     "express": "^4.17.1",
     "mongoose": "^5.9.26",
     "nodemon": "^2.0.13",
-    "request": "^2.88.2"
+    "request": "^2.88.2",
+    "socket.io": "^4.2.0"
   }
 }
